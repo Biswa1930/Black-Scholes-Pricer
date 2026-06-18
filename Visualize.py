@@ -27,7 +27,7 @@ surf = ax.plot_surface(S_grid, T_grid, gamma_surface, cmap='viridis', edgecolor=
 ax.set_title('Black-Scholes Gamma Surface\n(Strike=100, Vol=20%, r=5%)')
 ax.set_xlabel('Underlying Asset Price ($)')
 ax.set_ylabel('Time to Maturity (Years)')
-ax.set_zlabel('Gamma ($\Gamma$)')
+ax.set_zlabel(r'Gamma ($\Gamma$)')
 fig.colorbar(surf, shrink=0.5, aspect=5, label='Gamma Value')
 
 # 6. Save the image directly to the folder for your GitHub README
